@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB926FA0-D385-47F1-8232-676FECEF5D1B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindABrew.Core", "src\FindABrew.Core\FindABrew.Core.xproj", "{8FB76B84-A7E4-4EC9-96F8-54620C082C5A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindABrew.Infrastructure", "src\FindABrew.Infrastructure\FindABrew.Infrastructure.xproj", "{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindABrew.Tests", "src\FindABrew.Tests\FindABrew.Tests.xproj", "{3C78AC2C-564E-4587-ABE1-BE22988AE963}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindABrew.Tests.EndToEnd", "src\FindABrew.Tests.EndToEnd\FindABrew.Tests.EndToEnd.xproj", "{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindABrew.Api", "src\FindABrew.Api\FindABrew.Api.xproj", "{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB76B84-A7E4-4EC9-96F8-54620C082C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB76B84-A7E4-4EC9-96F8-54620C082C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB76B84-A7E4-4EC9-96F8-54620C082C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB76B84-A7E4-4EC9-96F8-54620C082C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C78AC2C-564E-4587-ABE1-BE22988AE963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C78AC2C-564E-4587-ABE1-BE22988AE963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C78AC2C-564E-4587-ABE1-BE22988AE963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C78AC2C-564E-4587-ABE1-BE22988AE963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FB76B84-A7E4-4EC9-96F8-54620C082C5A} = {F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}
+		{5D25D933-0E6A-413A-A5D1-2AE6B7D7398A} = {F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}
+		{3C78AC2C-564E-4587-ABE1-BE22988AE963} = {F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}
+		{2C0EC8E5-4EE6-4238-BD12-EA4EF9CB1077} = {F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}
+		{D0D70F97-4E85-4F4D-B332-D0AFC1A8CA6C} = {F38059EE-394F-4D57-BC6C-8ACDDD9BCEE7}
+	EndGlobalSection
+EndGlobal
